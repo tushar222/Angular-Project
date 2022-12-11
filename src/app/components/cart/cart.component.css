@@ -1,0 +1,39 @@
+.card{
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-45%,-45%);
+    text-align:center;
+}
+.center img{
+    position: absolute;
+    width: 79%;
+    top: -100%;
+    left: 12%;
+}
+.card-table{
+    display:flex;
+    min-width: none;
+    position: absolute;
+    word-wrap: break-word;
+    background-color: white;
+    border: 1px solid black;
+    border-radius:.25rem;
+    flex-direction: column;    
+}
+.center .btn{
+    margin-top: 25px !important;
+    font-size: 15px !important;
+    font-weight: 400;
+    padding: 10px 70px;
+    border-radius: 3px !important;
+}
+.container{
+    position: absolute;
+    left: 6%;
+}
